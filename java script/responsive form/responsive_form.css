@@ -1,0 +1,37 @@
+body{
+    background-color: darkgoldenrod;
+}
+
+.main_container{
+    background-color: darkslateblue;
+    height: auto;
+    padding: 20px;
+
+
+}
+
+.main_container h1{
+    text-align: center;
+}
+
+.form-container{
+    
+    background-color: darkolivegreen;
+    height: auto;
+    padding: 10px;
+}
+.form_element{
+    background-color: lawngreen;
+    padding: 15px;
+}
+.form_element label{
+    display: block;
+}
+input[type=text]{
+    width: 98%;
+}
+
+.button_container{
+    padding: 10px;
+    
+}

@@ -1,0 +1,14 @@
+Name of customer is : Mehul Gehlot
+Age of customer is : 21
+Contact of customer is :9874563210
+Address of customer is : Airoli
+Amount For First Deposite : 2000
+email of customer is : gehlot@@gmail.com
+Password is : mehul123
+Account Number is : 16493184036
+
+The account for MehulGehlot has been created with depositing amount of : 2000    23:05:22  01:27:09
+The Amount deposited : 3000                23:05:22  01:27:49
+Balance : 5000                           23:05:22  01:27:49
+The Amount Withdraw : 2000                 23:05:22  01:28:54
+Balance : 3000                           23:05:22  01:28:54

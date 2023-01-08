@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>on change</title>
+    <script>
+        function dropdown(){
+            
+            var x=document.getElementById("drop").value
+            document.getElementById("para").innerHTML=`You selected ${x}`
+        }
+    </script>
+</head>
+<body>
+    <h1 style="text-align: center;" >On CHANGE EVENT</h1>
+    
+    <form action="#" style="display: inline-block;">
+        <select name="dp" id="drop" onchange="dropdown()">
+            <option value="">select</option>
+            <option value="Python">Python</option>
+            <option value="java">java</option>
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>            
+        </select>
+    </form>
+    <p id="para" style="display: inline-block;"> Text will reflect here</p>
+</body>
+</html>

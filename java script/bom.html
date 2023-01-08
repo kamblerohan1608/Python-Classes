@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browser object model</title>
+    <script>
+
+        function alertbtn(){
+            alert("This might be dangerous back to safety")
+        }
+
+        function confirmbtn(){
+            var x=confirm("Are you sure you want to continue...?")
+
+            if (x==true){
+                alert("The page continues")
+            }
+            else{
+                alert("Cancelled")
+            }
+        }
+
+        function promptbtn(){
+            var name=prompt("Enter Your Name : ")
+            document.write(`Welcome ${name}`)
+        }
+
+        function openbtn(){
+            open("https://www.google.com")
+        }
+
+    </script>
+</head>
+<body>
+    <button onclick="alertbtn()">alert</button>
+    <br><br>
+    <button onclick="confirmbtn()">confirm</button>
+    <br><br>
+    <button onclick="promptbtn()">Prompt</button>
+    <br><br>
+    <button onclick="openbtn()">open</button>
+</body>
+</html>
